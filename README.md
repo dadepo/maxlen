@@ -80,10 +80,10 @@ $('textarea').maxlen({
     });
 </pre>
 
-<strong>Limit</strong> 
+<strong>limit</strong> 
 States the limit of character allowed. Default is 160
 
-<strong>Order</strong> 
+<strong>order</strong> 
 States whether the plugin would show how much character has been used in the limit specified or how much is remaining.
 The allowed options are 'desc' and 'asc'. 'desc' shows remaining characters, 'asc' shows used characters. The default is 'desc'
 
