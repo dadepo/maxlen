@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *Maxlen Jquery Plugin*
 
 Maxlen Jquery Plugin is a simple Jquery plugin that makes you easily limit the number of character that user can write in a field and stating either how many character has been used or how many character is left (think twitter input element)
@@ -95,3 +96,9 @@ color:red;
 </style>
 
 would automatically change the color to red when the limit is reached.
+=======
+maxlen
+======
+
+Maxlen Jquery Plugin is a simple Jquery plugin that makes you easily limit the number of character that user can write in a field and stating either how many character has been used or how many character is left (think twitter input)
+>>>>>>> 342d3cbb1e2ceee835af2700466d247bbf429849
