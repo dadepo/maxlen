@@ -1,6 +1,6 @@
 <h2>Maxlen Jquery Plugin</h2>
 
-Maxlen Jquery Plugin is a simple Jquery plugin that makes you easily limit the number of character that user can write in a field and stating either how many character has been used or how many character is left (think twitter input element)
+Maxlen Jquery Plugin is a simple Jquery plugin that makes it easy to limit the number of characters that user can write in a field; stating either how many character has been used or how many character is left. It is a plugin that implements Twitters style of limiting characters of tweets while showing users how much characters are left to be used.
 
 Maxlen Jquery Plugin works with both Textarea field and the Input type text HTML element
 
