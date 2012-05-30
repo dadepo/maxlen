@@ -22,7 +22,7 @@
                      {
                         
                         
-                        if (this.tagName != 'TEXTAREA' && $(this).attr('type') != 'text')
+                        if (this.tagName != 'TEXTAREA' || $(this).attr('type') != 'text')
                         {
                             //because the plugin is meant for TEXTAREA and INPUT only
                             return true;
