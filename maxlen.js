@@ -57,7 +57,7 @@
         
         
         
-        alert(settings.position);
+        
         if (settings.position == 'above')
         {
             $(this).before("<p class='"+settings.class+" limit'>"+len+"</p>");
