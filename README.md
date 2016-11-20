@@ -26,44 +26,36 @@ The Plugin has two options of showing this. It can either show how many characte
 
 To activate the plugin on a TEXTAREA with an ID of "feedback":
 
-<pre>
+```
 <script type='text/javascript'>
-$(document).ready(function()
-{
-$('textarea#feedback').maxlen();
-
-}
-);
+$(document).ready(function() {
+  $('textarea#feedback').maxlen();
+});
 </script>
-</pre>
+```
 
 This would use the default values and limit allowed characters to 160.
 
 Maxlen Jquery Plugin can be used on more than one element at the same time. So the following code would work
 
-<pre>
+```
 <script type='text/javascript'>
-$(document).ready(function()
-{
-$('textarea,input').maxlen();
-
-}
-);
+$(document).ready(function() {
+  $('textarea,input').maxlen();
+});
 </script>
-</pre>
+```
 
 or
 
-<pre>
+```
 <script type='text/javascript'>
-$(document).ready(function()
-{
+$(document).ready(function() {
 $('textarea').maxlen();
 $('input').maxlen();
-}
-);
+});
 </script>
-</pre>
+```
 
 Note that even though the type of Input is not specified, the plugin would only take effect on input[type=text]
 
@@ -71,14 +63,14 @@ Note that even though the type of Input is not specified, the plugin would only 
 
 The full options for the plugin is
 
-<pre>
+```
 $('textarea').maxlen({
       'limit' : 160,
       'order' : 'desc',
       'class' : 'maxlen_class',
       'position' : 'above'
     });
-</pre>
+```
 
 <strong>limit</strong> 
 States the limit of character allowed. Default is 160
@@ -102,13 +94,12 @@ When the limit of the character is reached, a class name of "limit" is automatic
 
 for example placing this in your project 
 
-<pre>
+```
 <style type="text/css">
-.limit
-{
+.limit {
 color:red;
 }
 </style>
-</pre>
+```
 
 would automatically change the color to red when the limit is reached.
